@@ -13,3 +13,7 @@ I graduated from Belorussian State Pedagogical University as biology and chemist
 * HTML, CSS
 * Visual Studio Code
 ***
+## Languages:
+
+* Inglish
+* Russian
