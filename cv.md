@@ -19,5 +19,6 @@ I graduated from Belorussian State Pedagogical University as biology and chemist
 
 ## Languages:
 
-* Inglish
-* Russian
+* English (A2)
+* Russian (Native)
+* Belarussian (Native)
