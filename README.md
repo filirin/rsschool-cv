@@ -1,1 +1,1 @@
-https://filirin.github.io/rsschool-cv/cv
+https://filirin.github.io/rsschool-cv/
