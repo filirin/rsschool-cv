@@ -1,1 +1,0 @@
-https://filirin.github.io/rsschool-cv/cv
