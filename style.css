@@ -1,5 +1,58 @@
-.text{
-    font-size: 60px;
-    font-weight: bold;
-    color: pink;
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
 }
+.wrapper {
+  position: relative;
+}
+.box {
+  width: 650px;
+  position: absolute; 
+  left: 40%;
+  margin-left: -200px; /*смещаем блок влево на расстояние, равное половине его ширины*/
+  }
+.flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+#header {
+  padding: 20px 0;
+  border-bottom: rgb(180, 92, 180) solid 5px;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(167, 66, 187, 0.8);
+  }
+.header-nav {
+font-size: 16px;
+font-weight: bold;
+}
+.header-nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #c56bb2;
+}
+.img-filirin {
+  image-rendering: crisp-edges;
+}
+#main {
+  padding: 20px 0;
+  border:rgb(180, 92, 180) 2px solid;
+}
+#footer {
+  padding: 20px 0;
+  border:rgb(180, 92, 180) 2px solid;
+  display: flex;
+  
+}
+#footer p {
+  text-align: center;
+}
+.img-rs{
+  padding: 20px;
+}
+
