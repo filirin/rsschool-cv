@@ -14,5 +14,16 @@
 }
 #header {
   padding: 20px 0;
-  border-bottom: rebeccapurple solid 10px;
+  border-bottom: rgb(180, 92, 180) solid 5px;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(167, 66, 187, 0.8);
   }
+.header-nav {
+font-size: 16px;
+font-weight: bold;
+}
+.header-nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #c56bb2;
+}
