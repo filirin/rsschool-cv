@@ -1,5 +1,18 @@
-.header-nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+.flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+#header {
+  padding: 20px 0;
+  border-bottom: rebeccapurple solid 10px;
   }
