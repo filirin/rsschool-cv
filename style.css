@@ -27,3 +27,10 @@ font-weight: bold;
   text-decoration: none;
   color: #c56bb2;
 }
+.img-filirin {
+  image-rendering: crisp-edges;
+}
+#main {
+  padding: 20px 0;
+  border:rgb(180, 92, 180) 2px solid;
+}
