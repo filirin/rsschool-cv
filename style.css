@@ -3,6 +3,15 @@
   margin: auto;
   padding: 0 15px;
 }
+.wrapper {
+  position: relative;
+}
+.box {
+  width: 650px;
+  position: absolute; 
+  left: 40%;
+  margin-left: -200px; /*смещаем блок влево на расстояние, равное половине его ширины*/
+  }
 .flex {
   display: flex;
 }
@@ -34,3 +43,16 @@ font-weight: bold;
   padding: 20px 0;
   border:rgb(180, 92, 180) 2px solid;
 }
+#footer {
+  padding: 20px 0;
+  border:rgb(180, 92, 180) 2px solid;
+  display: flex;
+  
+}
+p {
+  text-align: center;
+}
+.img-rs{
+  padding: 20px;
+}
+
