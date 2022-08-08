@@ -1,5 +1,5 @@
 # rsschool-cv
-# Marina Filichonok 
+# Marina Shcherbakova 
 Junior Frontend Developer
 
 
