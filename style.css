@@ -8,7 +8,7 @@
   justify-content: center;
 }
 .box {
-  width: 650px;
+  width: 100%;
   background-color: rgb(217, 211, 236);
 }
 .flex {
@@ -44,6 +44,11 @@ font-weight: bold;
   image-rendering: crisp-edges;
 }
 
+.contact-container {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .title-myself {
   text-align: justify;
   text-indent: 15px;
@@ -62,6 +67,15 @@ font-weight: bold;
   max-width: 1200px;
   margin: auto;
   gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 551px) {
+  .burger-button {
+  display: none;
+  }
+  
 }
 
 
@@ -83,6 +97,7 @@ font-weight: bold;
   }
   .title-myself, p, li, a {
     font-size: 22px;
+    word-break: break-word;
   }
 }
 
@@ -92,9 +107,7 @@ font-weight: bold;
     width: 60px;
     height: 60px;
     background: transparent;
-    border: transparent;
-    
-  }
+    border: transparent;}
 
   span {
     display: block;
@@ -112,18 +125,33 @@ font-weight: bold;
   .header-nav {
     position: absolute;
     background-color: rgb(217, 211, 236);
-    width: 478px;
+    width: 80%;
     height: 130px;
     flex-direction: column;
     z-index: 1;
+    transition: left 0,5s ease;
     left: -100%;
     
+  }
+
+  .active {
+    left: 0;
   }
   
   .container {
     justify-content: space-around;
   }
-  
+
+  .cross-1 {
+    transform:rotate(45deg);
+  }
+  .cross-2 {
+    transform:rotate(-45deg);
+    margin: 0;  
+  }
+  .cross-3 {
+    top: -1000px;
+  }
 
   .header-nav a {
     padding-top: 10px;
