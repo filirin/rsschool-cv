@@ -1,0 +1,159 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 100%;
+  background-color: rgb(217, 211, 236);
+}
+.flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+#header {
+  padding: 20px 0;
+  border-bottom: rgb(180, 92, 180) solid 5px;
+  /*background-color: #fff;*/
+  box-shadow: 0 3px 20px rgba(167, 66, 187, 0.8);
+  }
+.header-nav {
+font-size: 20px;
+font-weight: bold;
+
+}
+.header-nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #c56bb2;
+  cursor: pointer;
+}
+.header-nav a:hover {
+  color: rgb(17, 4, 4);
+}
+.img-filirin {
+  image-rendering: crisp-edges;
+}
+
+.contact-container {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.title-myself {
+  text-align: justify;
+  text-indent: 15px;
+}
+#main {
+  padding: 20px 0;
+  border:rgb(180, 92, 180) 2px solid;
+}
+#footer {
+  padding: 20px 0;
+  border:rgb(180, 92, 180) 2px solid;
+  display: flex;
+  
+}
+.container-footer {
+  max-width: 1200px;
+  margin: auto;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 551px) {
+  .burger-button {
+  display: none;
+  }
+  
+}
+
+
+/*width = 800px */
+@media  (max-width: 800px) {
+  .header-nav {
+    font-size: 25px;
+    text-align: center;
+    
+  }
+  .header-nav a {
+    margin-left: 20px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .title-myself, p, li, a {
+    font-size: 22px;
+    word-break: break-word;
+  }
+}
+
+/*width = 550px */
+@media (max-width: 550px) {
+  .burger-button{
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border: transparent;}
+
+  span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(180, 92, 180);
+    position: relative;
+    z-index: 2;
+  }
+
+  span + span {
+    margin-top: 7px;
+  }
+  
+  .header-nav {
+    position: absolute;
+    background-color: rgb(217, 211, 236);
+    width: 80%;
+    height: 130px;
+    flex-direction: column;
+    z-index: 1;
+    transition: left 0,5s ease;
+    left: -100%;
+    
+  }
+
+  .active {
+    left: 0;
+  }
+  
+  .container {
+    justify-content: space-around;
+  }
+
+  .cross-1 {
+    transform:rotate(45deg);
+  }
+  .cross-2 {
+    transform:rotate(-45deg);
+    margin: 0;  
+  }
+  .cross-3 {
+    top: -1000px;
+  }
+
+  .header-nav a {
+    padding-top: 10px;
+  }
+}
